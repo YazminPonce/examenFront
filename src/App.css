@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.resistor-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row; /* Por defecto en fila */
+  margin-top: 20px;
+}
+
+.resistor-image-container {
+  text-align: center;
+}
+
+.resistor-image {
+  max-width: 400px;
+  height: auto;
+}
+
+.resistor-bands {
+  margin-left: 70px;
+}
+
+.resistor-bands div {
+  margin-bottom: 15px;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+  .resistor-container {
+    flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+    align-items: center;
+  }
+
+  .resistor-bands {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}

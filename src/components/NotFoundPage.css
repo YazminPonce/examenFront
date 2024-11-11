@@ -1,0 +1,34 @@
+
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+.not-found-title {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #dc3545;
+    margin-bottom: 0;
+}
+
+
+.not-found-subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+
+.not-found-message {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 400px;
+}
